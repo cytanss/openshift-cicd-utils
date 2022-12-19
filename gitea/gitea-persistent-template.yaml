@@ -1,10 +1,10 @@
 kind: Template
-apiVersion: v1
+apiVersion: template.openshift.io/v1
 metadata:
   annotations:
     description: The Gitea git server (https://gitea.io/en-US/)
     tags: instant-app,gitea,datastore
-    iconClass: "icon-github"
+    iconClass: "icon-git"
   name: gitea-persistent
 objects:
 - kind: ServiceAccount
